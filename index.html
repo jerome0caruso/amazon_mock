@@ -6,8 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon Mock</title>
     <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
 </head>
 <body>
-    <h1>Hello world</h1>
+    <div class="container">
+        <img id="logo" src="./images/amazon.png">
+        <div class="sign-in">
+            <h2>Sign In</h2>
+            <form class="form">
+                <label for="email">Email(phone or mobile accounts)</label>
+                <input type="email" id="email" required placeholder="Enter Email">
+                <label for="password">
+                    <div class="password-line">
+                        <span>Password</span>
+                        <span class="sec-password"><a href="#">Forgot Password</a></span>
+                    </div>
+          
+                </label>
+                <input type="password" id="password" required placeholder="Enter Password">
+                <input id="submit" type="submit" value="Continue">
+            </form>
+            <i class="fas fa-caret-right notch"></i><a href="#"><span class="help">Need Help?</span></a>
+        </div>
+        <div class="bottom">
+            <hr class="line"> </hr>
+            <h3>New To Amazon?</h3>
+            <input id="submit-create" type="submit" value="Create Your Amazon Account">
+        </div>
+        <hr class="line2"> </hr>
+        <div class="footer">
+            <div class="footer-links">
+                <a href="#">Conditions of use</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Help</a>   
+            </div>
+
+            <p>&#169; 1996-2020, Amazon.com,inc or it's affiliates.</p>
+        </div>
+    </div>
+    
 </body>
 </html>
