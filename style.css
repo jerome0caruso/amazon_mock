@@ -74,6 +74,7 @@ input {
 
 #submit:hover {
     cursor: pointer;
+    background-color: rgb(252, 204, 85);
 }
 
 .notch {
@@ -117,6 +118,9 @@ input {
     margin-left: 12px;
     margin-top: 24px;
     width: 95%;
+}
+#submit-create:hover {
+    cursor: pointer;
 }
 .line2 {
     margin-top: 50px;
